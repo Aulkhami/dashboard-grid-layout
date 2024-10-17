@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: 15rem 5fr;
+  grid-template-rows: 8rem 1fr;
+
+  color: #f8fafc;
+}
+
+header {
+  background-color: #1e293b;
+  box-shadow: 0 5px 5px #00000044;
+
+  z-index: 21;
+}
+
+.sidebar {
+  grid-row: 1 / -1;
+
+  background-color: #dc2626;
+  box-shadow: 5px 0 5px #00000044;
+
+  z-index: 20;
+}
+
+main {
+  background-color: #111827;
+}
