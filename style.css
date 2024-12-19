@@ -137,10 +137,12 @@ body {
   background-color: #1e293b;
 }
 
-header {
+.section {
   background-color: #0f172a;
-
   display: grid;
+}
+
+header {
   grid-template-columns: 5fr 4fr;
   grid-template-rows: 1fr 2fr;
   gap: 8px 21px;
@@ -234,10 +236,4 @@ header {
 
 .sidebar {
   grid-row: 1 / -1;
-
-  background-color: #0f172a;
-}
-
-main {
-  background-color: #0f172a;
 }
