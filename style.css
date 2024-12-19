@@ -154,6 +154,8 @@ header {
   grid-template-rows: 1fr 2fr;
   gap: 8px 21px;
   padding: 1rem 2rem;
+
+  background: linear-gradient(225deg, #450a0a, 5%, #450a0a00 20%);
 }
 
 .search {
@@ -252,6 +254,8 @@ header {
   gap: 1rem;
 
   padding: 1rem;
+
+  background: linear-gradient(135deg, #450a0a, 10%, #0f172a 50%);
 }
 
 .sidebar .header {
