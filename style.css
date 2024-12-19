@@ -129,7 +129,7 @@ body {
 
   display: grid;
   grid-template-columns: 20rem 5fr;
-  grid-template-rows: 8rem 1fr;
+  grid-template-rows: 12rem 1fr;
   gap: 2px;
 
   color: #f8fafc;
@@ -139,16 +139,103 @@ body {
 
 header {
   background-color: #0f172a;
-  z-index: 21;
+
+  display: grid;
+  grid-template-columns: 5fr 4fr;
+  grid-template-rows: 1fr 2fr;
+  gap: 8px 21px;
+  padding: 1rem 2rem;
+}
+
+.search {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 8px;
+}
+
+#search-bar {
+  font-size: 0.9rem;
+  color: #0f172a;
+  background-color: #f8fafc;
+
+  flex: auto;
+  border: 0;
+  border-radius: 5px;
+  width: auto;
+  height: 1.5rem;
+  padding: 8px;
+
+  box-shadow: 0 5px 12px #f8fafc55;
+}
+
+.info-bar {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 24px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-radius: 9999px;
+
+  background-color: #0009;
+  font-weight: bold;
+}
+
+.profile-picture {
+  background-color: #dc2626;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.profile .username {
+  padding-right: 24px;
+}
+
+.greeting {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.greeting .profile-picture {
+  width: 75px;
+  height: 75px;
+  box-shadow: 0 0 18px #dc262699;
+}
+
+.greeting .name {
+  font-weight: 900;
+  font-size: 1.75rem;
+}
+
+.action-bar {
+  display: flex;
+  gap: 21px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.action-bar button {
+  padding: 0.8rem 0;
+  border-radius: 9999px;
+  border: none;
+  width: 128px;
+
+  background-color: #b91c1c;
+  color: #f8fafc;
+  font-weight: 600;
 }
 
 .sidebar {
   grid-row: 1 / -1;
 
   background-color: #0f172a;
-
-
-  z-index: 20;
 }
 
 main {
