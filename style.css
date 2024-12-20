@@ -300,7 +300,7 @@ header {
 
 main {
   grid-template-columns: 5fr 2fr;
-  grid-template-rows: auto auto;
+  grid-template-rows: repeat(2, minmax(300px, 1fr));
   gap: 2rem;
   padding: 2rem;
 }
