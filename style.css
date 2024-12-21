@@ -157,6 +157,10 @@ body {
   background-color: #1e293b;
 }
 
+p {
+  color: #cbd5e1;
+}
+
 .section {
   background-color: #0f172a;
   display: grid;
