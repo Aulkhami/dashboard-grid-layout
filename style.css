@@ -392,3 +392,29 @@ main>div {
   
   font-size: 0.875rem;
 }
+
+.trending .card {
+  gap: 1.5rem;
+}
+
+.trending .item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#kras {
+  background-color: #fb7185;
+}
+
+#dolores {
+  background-color: #38bdf8;
+}
+
+#pink {
+  background-color: #e879f9;
+}
+
+#harry {
+  background-color: #34d399;
+}
